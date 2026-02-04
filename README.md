@@ -1,26 +1,52 @@
-<h1>LoginGuardian</h1>
-Lightweight Python login system with secure user storage, blacklist protection, and basic log analytics.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
 
-A compact, educational project demonstrating a secure login flow using Python. It includes user creation, secure user storage, blacklist enforcement, a simple Tkinter login GUI, and basic log parsing/analytics for authentication events.
-<hr>
-<h3>Features</h3>
-Secure user management (create_user.py, users_secure.json)
-GUI login (login_seguro_tk.py) using Tkinter
-Blacklist protection (blacklist.json) to block known bad actors
-Log parsing & analytics (analytics.py, logs_exemplo.csv)<br>
-<hr>
-<h3>Quick start</h3>
-Create or activate a Python environment:
-python3 -m venv .venv && source .venv/bin/activate
-Create a user:
+  <h1>LoginGuardian</h1>
+
+  <p>
+    Lightweight Python login system with secure user storage, blacklist protection,
+    and basic log analytics.
+  </p>
+
+  <h2>How to use</h2>
+
+  <h3>1. Set up the environment</h3>
+
+  <p>Make sure Python 3.8 or higher is installed.</p>
+
+  <pre><code>
+python3 -m venv .venv
+source .venv/bin/activate
+  </code></pre>
+
+  <h3>2. Create a user</h3>
+
+  <pre><code>
 python3 create_user.py
-Run the GUI login:
+  </code></pre>
+
+  <h3>3. Run the login interface</h3>
+
+  <pre><code>
 python3 login_seguro_tk.py
-Run simple analytics:
+  </code></pre>
+
+  <h3>4. Run log analytics</h3>
+
+  <pre><code>
 python3 analytics.py logs_exemplo.csv
-<hr>
-<h3>Notes:</h3>
-<ul>
-<li><i>Requires Python 3.8+ and Tkinter (standard on most systems).</i><br></li>
-<li><i>The project language is Portuguese (PT-PT).</i></li>
-</ul>
+  </code></pre>
+
+  <h2>Notes</h2>
+
+  <ul>
+    <li>Requires Python 3.8+ and Tkinter</li>
+    <li>Project language: Portuguese (PT-PT)</li>
+  </ul>
+
+</body>
+</html>
